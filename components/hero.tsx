@@ -1,4 +1,4 @@
-import FeBg from '@/public/images/about2.jpg'
+import FeBg from '@/public/images/about11.jpg'
 import home2 from '@/public/images/home2.jpeg'
 import Image from 'next/image'
 
