@@ -18,6 +18,20 @@ html {
   transform-origin: center;
   transform: rotate(0deg);
 }
+.box {
+  background-color: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box-header {
+  font-weight: bold;
+  color: #4a5568;
+  margin-bottom: 10px;
+}
+
 
 .hamburger svg > *:nth-child(1) {
   transition: y 0.1s 0.25s ease-in,

@@ -1,25 +1,65 @@
-import FeBg from '@/public/images/about11.jpg'
-import home2 from '@/public/images/home2.jpg'
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function CancerFacts() {
   return (
-    <section className="relative" >
-  <div className="container mx-auto mt-12 px-4 flex flex-wrap items-center" style={{backgroundColor:"#04487f"}}>
-  <button className="container  flex justify-center items-center button-yellow">About Cancer Facts</button>
-  {/* <div className="w-full md:w-1/2 pr-4"style={{backgroundColor:"#f6f6f6"}}> */}
-    <p className="animate-slideLeft text-lg mb-6">The University of Missouri-Kansas City aims to earn recognition as a Skin Smart Campus by The National Council on Skin Cancer Prevention through our commitment to fostering a safe and healthy learning and living environment both on- and off-campus. As part of this initiative, we have taken a pledge to prohibit indoor tanning devices in all university-affiliated buildings, while actively promoting skin cancer prevention policies and educational efforts.</p>
+    <section className="relative">
+      <div className="container mx-auto mt-12 px-0 flex flex-wrap items-center justify-center" style={{ backgroundColor: "#04487f" }}>
+       
+          <button className="container flex justify-center items-center button-yellow mb-8">Skin Cancer Facts</button>
+          <div className="w-full lg:w-11/12 xl:w-10/12 px-4">
+          <div className="border border-white rounded-lg mb-8 p-4">
+            <h2 className="text-2xl text-yellow-300 font-bold">Skin cancer is the most common cancer diagnosed in the United States</h2>
+            <p className="text-white mb-4">Basal cell carcinomas (BCC) and squamous cell carcinomas (SCC), the most prevalent skin cancers, are generally curable.</p>
+            <ul className="list-disc list-inside text-white mb-4">
+              <li>BCCs and SCCs account for approximately 80% and 20% of diagnosed skin cancers, respectively.</li>
+              <li>Treatment for these cancers often involves surgical removal, cryotherapy, or radiation therapy, depending on the extent and location of the lesion.</li>
+              <li>Despite their high cure rates, advanced cases can result in invasive treatments and potential disfigurement, underscoring the importance of early detection and preventive measures.</li>
+            </ul>
+          </div>
 
-    <p className="animate-slideLeft text-lg mb-6">This endeavor aligns with the Indoor Tan-Free Skin Smart Campus Initiative, which is supported by the National Council on Skin Cancer Prevention in response to the 2014 U.S. Surgeon General’s Call to Action to Prevent Skin Cancer. The Surgeon General's report recognized the significant correlation between indoor tanning use and increased skin cancer risk, emphasizing the avoidable nature of UV radiation exposure from such practices. By implementing interventions aimed at reducing skin cancer and associated fatalities, we strive to address this pressing public health concern.</p>
+          <div className="border border-white rounded-lg mb-8 p-4">
+            <h2 className="text-2xl text-yellow-300 font-bold">Melanoma, the third most common skin cancer in the United States</h2>
+            <p className="text-white mb-4">Melanoma arises from the melanocytes, or pigment-producing cells, and has the potential to metastasize to other organs, making early detection and intervention crucial for prognosis.</p>
+            <ul className="list-disc list-inside text-white mb-4">
+              <li>Treatment for melanoma typically involves surgical excision, with additional therapies such as immunotherapy, targeted therapy, and chemotherapy considered for advanced cases.</li>
+              <li>The mortality rate for melanoma is significantly higher than other skin cancers due to its propensity for metastasis. Thus, routine skin screenings and daily sun protection practices are important.</li>
+              <li>When detected early, melanoma has a 5-year survival rate of 99%.</li>
+            </ul>
+          </div>
 
-    <p className="animate-slideLeft text-lg mb-6">The current literature highlights the prevalence of various cutaneous malignancies in the United States, with melanoma emerging as one of the most frequently diagnosed cancers among young adults. According to findings from The International Agency for Research on Cancer Working Group, tanning beds emit 2-10x more UVA radiation than natural sunlight on average. Additionally, individuals who utilize indoor tanning facilities before the age of 35 years have a 75% increase in the risk of developing melanoma. These statistics emphasize the importance of our commitment to promoting skin cancer prevention measures and cultivating a culture of wellness within our community.</p>
-  {/* </div> */}
-  <div className="w-full md:w-1/2">
-    {/* <Image src={home2} alt="Febg" style={{ height: '90vh', width:"100%" }} className='animate-rightLeft'/> */}
-  </div>
-</div>
+          <div className="border border-white rounded-lg mb-8 p-4">
+            <h2 className="text-2xl text-yellow-300 font-bold">Exposure to ultraviolet (UV) radiation</h2>
+            <p className="text-white mb-4">UV radiation from sunlight is the primary environmental risk factor for skin cancer, contributing to DNA damage and cellular mutations.</p>
+            <ul className="list-disc list-inside text-white mb-4">
+              <li>Tanning devices, including tanning beds and sunlamps, emit artificial UV radiation that can accelerate skin aging and heighten the risk of skin cancer.</li>
+              <li>Practicing sun safety measures such as wearing protective clothing, applying broad-spectrum sunscreen, seeking shade during peak UV hours, and avoiding indoor tanning can mitigate UV-related skin damage and reduce the risk of skin cancer in the long-term.</li>
+            </ul>
+          </div>
 
+          <div className="border border-white rounded-lg mb-8 p-4">
+            <h2 className="text-2xl text-yellow-300 font-bold">General risk factors</h2>
+            <ul className="list-disc list-inside text-white mb-4">
+              <li>Skin that is lightly complected, burns, freckles, or becomes red upon sun exposure easily is often associated with a higher risk of skin cancer.</li>
+              <li>Presence of many moles.</li>
+              <li>Personal or family history of skin cancer.</li>
+              <li>History of sun exposure and sunburns, particularly during early life.</li>
+              <li>Engagement in indoor tanning.</li>
+            </ul>
+          </div>
 
+          <div className="border border-white rounded-lg mb-8 p-4">
+            <h2 className="text-2xl text-yellow-300 font-bold">Skin cancer in skin of color patients</h2>
+            <ul className="list-disc list-inside text-white mb-4">
+              <li>Skin cancer can affect individuals of all skin tones, including those with darker skin who rarely sunburn.</li>
+              <li>Melanoma in people of color tends to manifest in unique locations on the body, such as the palms of the hands, soles of the feet, under the nails, and in other nail areas.</li>
+              <li>These atypical locations often delay detection and diagnosis, leading to more advanced disease stages upon presentation. This poses challenges for treatment and potentially decreases survival rates.</li>
+              <li>Dermatologists should be vigilant in conducting thorough skin examinations, considering these less typical sites for melanoma development in people of color.</li>
+              <li>UV radiation exposure poses risks to individuals of all skin tones, contributing to skin damage, premature aging, and hyperpigmentation. Therefore, protection against UV radiation is essential for maintaining skin health and reducing the risk of skin cancer, regardless of skin tone.</li>
+              <li>Educating communities about the importance of sun protection and skin cancer awareness can help mitigate disparities in skin cancer outcomes among people of color.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
