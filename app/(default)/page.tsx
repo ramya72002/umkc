@@ -8,11 +8,22 @@ import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
+import CancerFacts from '@/components/cancerFacts'
+import CancerPrevention from '@/components/CancerPrevention'
+import UvIndex from '@/components/uvIndex'
+import EarlyDetection from '@/components/earlyDetection'
+import ResourcesLinks from '@/components/resourcesLinks'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <CancerFacts/>
+      <CancerPrevention/>
+      <UvIndex/>
+      <EarlyDetection/>
+      <ResourcesLinks/>
+      
       <Features />
       <FeaturesBlocks />
       <Testimonials />
