@@ -1,25 +1,62 @@
-import FeBg from '@/public/images/about11.jpg'
-import home2 from '@/public/images/home2.jpg'
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function CancerPrevention() {
   return (
-    <section className="relative" >
-  <div className="container mx-auto mt-12 px-4 flex flex-wrap items-center" style={{backgroundColor:"#0066cc"}}>
-  <button className="container  flex justify-center items-center button-yellow">About Skin Cancer Prevention </button>
-  {/* <div className="w-full md:w-1/2 pr-4"style={{backgroundColor:"#f6f6f6"}}> */}
-    <p className="animate-slideLeft text-lg mb-6">The University of Missouri-Kansas City aims to earn recognition as a Skin Smart Campus by The National Council on Skin Cancer Prevention through our commitment to fostering a safe and healthy learning and living environment both on- and off-campus. As part of this initiative, we have taken a pledge to prohibit indoor tanning devices in all university-affiliated buildings, while actively promoting skin cancer prevention policies and educational efforts.</p>
-
-    <p className="animate-slideLeft text-lg mb-6">This endeavor aligns with the Indoor Tan-Free Skin Smart Campus Initiative, which is supported by the National Council on Skin Cancer Prevention in response to the 2014 U.S. Surgeon General’s Call to Action to Prevent Skin Cancer. The Surgeon General's report recognized the significant correlation between indoor tanning use and increased skin cancer risk, emphasizing the avoidable nature of UV radiation exposure from such practices. By implementing interventions aimed at reducing skin cancer and associated fatalities, we strive to address this pressing public health concern.</p>
-
-    <p className="animate-slideLeft text-lg mb-6">The current literature highlights the prevalence of various cutaneous malignancies in the United States, with melanoma emerging as one of the most frequently diagnosed cancers among young adults. According to findings from The International Agency for Research on Cancer Working Group, tanning beds emit 2-10x more UVA radiation than natural sunlight on average. Additionally, individuals who utilize indoor tanning facilities before the age of 35 years have a 75% increase in the risk of developing melanoma. These statistics emphasize the importance of our commitment to promoting skin cancer prevention measures and cultivating a culture of wellness within our community.</p>
-  {/* </div> */}
-  <div className="w-full md:w-1/2">
-    {/* <Image src={home2} alt="Febg" style={{ height: '90vh', width:"100%" }} className='animate-rightLeft'/> */}
-  </div>
-</div>
-
-
+    <section className="relative">
+      <div className="container mx-auto mt-12 px-4 flex flex-wrap items-center" style={{backgroundColor:"#0066cc"}}>
+        <div className="content">
+          <button className="container flex justify-center items-center button-yellow mb-8">Skin Cancer Prevention</button>
+          <div className="sun-safety border-yellow-500 border-2 rounded-lg p-4 mb-4">
+            <h2 className="text-yellow-500 text-lg font-bold mb-2">Sun Safety Practices</h2>
+            <ul className="text-white">
+              <li>
+                <strong>Seek Shade</strong>
+                <ul>
+                  <li>When outdoors, seek shade under trees, umbrellas, or other structures to reduce direct exposure to sunlight.</li>
+                  <li>Especially important during peak sun hours, typically between 10 a.m. and 4 p.m.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div className="sunscreen border-yellow-500 border-2 rounded-lg p-4 mb-4">
+            <h2 className="text-yellow-500 text-lg font-bold mb-2">Wear Sunscreen</h2>
+            <ul className="text-white">
+              <li>
+                <ul>
+                  <li>Apply broad-spectrum sunscreen with SPF 30 or higher to all exposed skin areas, including face, neck, arms, and legs.</li>
+                  <li>Reapply sunscreen every two hours, or more frequently if swimming or sweating.</li>
+                  <li>Choose water-resistant sunscreen for prolonged outdoor activities.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div className="clothing border-yellow-500 border-2 rounded-lg p-4 mb-4">
+            <h2 className="text-yellow-500 text-lg font-bold mb-2">Wear Protective Clothing</h2>
+            <ul className="text-white">
+              <li>
+                <ul>
+                  <li>Cover up with lightweight, tightly woven clothing that protects the skin from UV rays.</li>
+                  <li>Wear a wide-brimmed hat to shade the face, neck, and ears.</li>
+                  <li>Wear sunglasses with UV protection to shield the eyes from harmful UV radiation.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div className="uv-index border-yellow-500 border-2 rounded-lg p-4 mb-4">
+            <h2 className="text-yellow-500 text-lg font-bold mb-2">Check the UV Index</h2>
+            <ul className="text-white">
+              <li>
+                <ul>
+                  <li>Monitor the UV index regularly, especially before planning outdoor activities.</li>
+                  <li>Limit outdoor exposure when the UV index is high (typically >3), as UV radiation levels are most intense during these times.</li>
+                  <li>Adjust sun protection measures accordingly based on the UV index forecast for the day.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <p className="text-white">The UV Index predicts the ultraviolet radiation levels on a 1-11+ scale, helping people determine appropriate sun-protective behaviors. Find your area’s UV index rating through the National Weather Service to determine the necessary precautions.</p>
+        </div>
+      </div>
     </section>
-  )
+  );
 }

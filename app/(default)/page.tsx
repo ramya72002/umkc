@@ -4,12 +4,8 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero'
-import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
-import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
 import CancerFacts from '@/components/cancerFacts'
-import CancerPrevention from '@/components/CancerPrevention'
+import CancerPrevention from '@/components/cancerPrevention'
 import UvIndex from '@/components/uvIndex'
 import EarlyDetection from '@/components/earlyDetection'
 import ResourcesLinks from '@/components/resourcesLinks'
@@ -23,11 +19,6 @@ export default function Home() {
       <UvIndex/>
       <EarlyDetection/>
       <ResourcesLinks/>
-      
-      <Features />
-      <FeaturesBlocks />
-      <Testimonials />
-      <Newsletter />
     </>
   )
 }

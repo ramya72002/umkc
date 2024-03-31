@@ -1,15 +1,15 @@
-import FeBg from '@/public/images/about11.jpg'
-import home2 from '@/public/images/home2.jpg'
+import A from '@/public/images/A.jpeg'
+import B from '@/public/images/B.jpeg'
+import C from '@/public/images/C.jpeg'
+import D from '@/public/images/D.jpeg'
+import E from '@/public/images/E.jpeg'
 import Image from 'next/image'
 
 export default function EarlyDetection() {
   return (
     <section className="relative" style={{ backgroundColor: "#04487f" }}>
       <div className="container mx-auto mt-12 px-4 flex flex-wrap items-center">
-        <button className="container flex justify-center items-center button-yellow mb-8">About Cancer Facts</button>
-        <div className="w-full md:w-1/2">
-          <Image src={FeBg} alt="FeBg" className="w-full h-auto" />
-        </div>
+        <button className="container flex justify-center items-center button-yellow mb-8">Early Detection</button>
         <div className="w-full md:w-1/2 px-4">
           <h2 className="text-white text-3xl font-bold mb-4">Melanoma: Early Detection</h2>
           <p className="text-white text-lg mb-6">
@@ -38,13 +38,32 @@ export default function EarlyDetection() {
               </li>
             </ul>
           </div>
-          <div className="border border-white rounded-lg p-4">
+        </div>
+        <div className="w-full md:w-1/2">
+          <div className="border border-white rounded-lg p-4 mb-6">
             <h3 className="text-white text-2xl font-bold mb-4">Explanation of ABCDE</h3>
-            <p className="text-white mb-4"><span className="text-yellow-300 font-bold">A is for Asymmetry:</span> One half of the spot is unlike the other half.</p>
-            <p className="text-white mb-4"><span className="text-yellow-300 font-bold">B is for Border:</span> The spot has an irregular, scalloped, or poorly defined border.</p>
-            <p className="text-white mb-4"><span className="text-yellow-300 font-bold">C is for Color:</span> The spot has varying colors from one area to the next, such as shades of tan, brown or black, or areas of white, red, or blue.</p>
-            <p className="text-white mb-4"><span className="text-yellow-300 font-bold">D is for Diameter:</span> While melanomas are usually greater than 6 millimeters, or about the size of a pencil eraser, when diagnosed, they can be smaller.</p>
-            <p className="text-white"><span className="text-yellow-300 font-bold">E is for Evolving:</span> The spot looks different from the rest or is changing in size, shape, or color.</p>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="col-span-1">
+                <Image src={A} alt="A" className="w-full h-auto rounded-lg" />
+                <p className="text-white mt-2"><span className="text-yellow-300 font-bold">A is for Asymmetry:</span> One half of the spot is unlike the other half.</p>
+              </div>
+              <div className="col-span-1">
+                <Image src={B} alt="B" className="w-full h-auto rounded-lg" />
+                <p className="text-white mt-2"><span className="text-yellow-300 font-bold">B is for Border:</span> The spot has an irregular, scalloped, or poorly defined border.</p>
+              </div>
+              <div className="col-span-1">
+                <Image src={C} alt="C" className="w-full h-auto rounded-lg" />
+                <p className="text-white mt-2"><span className="text-yellow-300 font-bold">C is for Color:</span> The spot has varying colors from one area to the next, such as shades of tan, brown or black, or areas of white, red, or blue.</p>
+              </div>
+              <div className="col-span-1">
+                <Image src={D} alt="D" className="w-full h-auto rounded-lg" />
+                <p className="text-white mt-2"><span className="text-yellow-300 font-bold">D is for Diameter:</span> While melanomas are usually greater than 6 millimeters, or about the size of a pencil eraser, when diagnosed, they can be smaller.</p>
+              </div>
+              <div className="col-span-1">
+                <Image src={E} alt="E" className="w-full h-auto rounded-lg" />
+                <p className="text-white mt-2"><span className="text-yellow-300 font-bold">E is for Evolving:</span> The spot looks different from the rest or is changing in size, shape, or color.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
