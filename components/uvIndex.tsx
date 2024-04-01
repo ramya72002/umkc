@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function UvIndex() {
   // Function to determine the background color based on UV index
-  const getColorByUVIndex = uvIndex => {
+  const getColorByUVIndex = (uvIndex: number) => {
     if (uvIndex <= 2) {
       return 'bg-green-500';
     } else if (uvIndex <= 5) {
