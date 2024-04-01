@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import FeBg from '@/public/images/about11.jpg';
-import home2 from '@/public/images/home2.jpg';
-
+ 
 export default function ResourcesLinks() {
   return (
     <section className="relative" style={{ backgroundColor: "#f6f6f6" }}>

@@ -15,9 +15,12 @@ export default function EarlyDetection() {
           <p className="text-white text-lg mb-6">
             Melanoma, the deadliest form of skin cancer, can be effectively treated if detected early. It is crucial to become familiar with your skin and conduct monthly self-skin examinations. Seeking assistance from a partner or friend to inspect hard-to-reach areas such as the back and scalp enhances the thoroughness of these examinations. Promptly notify your healthcare provider upon observing any potential warning signs to ensure prompt medical intervention.
           </p>
-          <p className="text-white text-lg mb-6">
-            View American Cancer Society’s guide or the American Academy of Dermatology Association’s guide to doing self-skin examinations.
-          </p>
+          <div className="self-examination mt-6">
+  <p className="text-white text-lg mb-6">
+    View <a href="https://www.cancer.org/cancer/risk-prevention/sun-and-uv/skin-exams.html" className="text-yellow-500 font-bold">American Cancer Society’s guide</a> or the <a href="https://www.aad.org/public/diseases/skin-cancer/find/check-skin" className="text-yellow-500 font-bold">American Academy of Dermatology Association’s guide</a> to doing self-skin examinations.
+  </p>
+</div>
+
           <div className="border border-white rounded-lg p-4 mb-6">
             <h3 className="text-white text-2xl font-bold mb-4">ABCDE’s of Melanoma</h3>
             <ul className="list-disc list-inside">

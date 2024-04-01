@@ -13,9 +13,9 @@ export default function Hero() {
          </div>
   </div>
   <div className="container mx-auto mt-12 px-4 flex flex-wrap items-center" style={{backgroundColor:"#f6f6f6"}}>
+    <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-blue-600 to-blue-400" style={{ backgroundColor: "#f6f6f6" }}>
+
   <button className="container flex justify-center items-center button-yellow mb-8">About Skin Smart Campus Initiative</button>
-<div className="w-full md:w-1/2 pr-4" style={{ backgroundColor: "#f6f6f6" }}>
-  <div className="border border-gray-300 rounded-lg p-6">
     <p className="animate-slideLeft text-lg mb-6">
       The University of Missouri-Kansas City aims to earn recognition as a Skin Smart Campus by The National Council on Skin Cancer Prevention through our commitment to fostering a safe and healthy learning and living environment both on- and off-campus. As part of this initiative, we have taken a pledge to prohibit indoor tanning devices in all university-affiliated buildings, while actively promoting skin cancer prevention policies and educational efforts.
     </p>
@@ -29,13 +29,9 @@ export default function Hero() {
     </p>
   </div>
 </div>
-<div className="w-full md:w-1/2">
-  <Image src={home2} alt="Febg" style={{ height: '90vh', width: "100%" }} className='animate-rightLeft' />
-</div>
-
-
-</div>
-
+{/* <div className="w-full md:w-1/2">
+  <Image src={home2} alt="Febg"  className='animate-rightLeft' />
+</div> */}
 
     </section>
   )
