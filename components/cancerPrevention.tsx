@@ -36,7 +36,7 @@ export default function CancerPrevention() {
             <h3 className="text-yellow-300 text-lg font-bold mb-2">Check the UV Index</h3>
             <ul className="text-white list-disc pl-6">
               <li>Monitor the UV index regularly, especially before planning outdoor activities.</li>
-              <li>Limit outdoor exposure when the UV index is high (typically >3), as UV radiation levels are most intense during these times.</li>
+              <li>Limit outdoor exposure when the UV index is high (typically {'>'}3), as UV radiation levels are most intense during these times.</li>
               <li>Adjust sun protection measures accordingly based on the UV index forecast for the day.</li>
             </ul>
           </div>

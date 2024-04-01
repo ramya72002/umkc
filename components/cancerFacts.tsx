@@ -36,7 +36,7 @@ export default function CancerFacts() {
       }
     };
 
-    const isElementInViewport = (el) => {
+    const isElementInViewport = (el: Element) => {
       const rect = el.getBoundingClientRect();
       return (
         rect.top >= 0 &&
