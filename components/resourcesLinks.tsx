@@ -56,9 +56,9 @@ export default function ResourcesLinks() {
                 title="National Council on Skin Cancer Prevention"
                 links={[
                   { text: "Webpage: www.skincancerprevention.org", url: "http://www.skincancerprevention.org/" },
-                  { text: "Twitter: @skincancerprev" },
-                  { text: "Facebook: @natlcouncilskincancerprevention"},
-                  { text: "IG: @skincancerprev"}
+                  { text: "Twitter: @skincancerprev",url:"" },
+                  { text: "Facebook: @natlcouncilskincancerprevention",url:""},
+                  { text: "IG: @skincancerprev",url:""}
                 ]}
               />
               {/* Skin Smart Campus */}
@@ -66,8 +66,8 @@ export default function ResourcesLinks() {
                 title="Skin Smart Campus"
                 links={[
                   { text: "Webpage: www.skinsmartcampus.org", url: "https://skincancerprevention.org/get-involved/skin-smart-campus/" },
-                  { text: "Twitter: @skinsmartcampus"},
-                  { text: "Facebook: @skinsmartcampus"}
+                  { text: "Twitter: @skinsmartcampus",url:""},
+                  { text: "Facebook: @skinsmartcampus",url:""}
                 ]}
               />
             </div>
@@ -78,7 +78,7 @@ export default function ResourcesLinks() {
   );
 }
 
-const ResourceCard = ({ title, links }) => {
+const ResourceCard = ({ title, links }: { title: string; links: { text: string; url: string }[] }) => {
   return (
     <div className="bg-white rounded-lg p-6 shadow-md">
       <h3 className="text-lg font-semibold mb-4">{title}</h3>
