@@ -76,15 +76,35 @@ export default function CancerFacts() {
               <li>When detected early, melanoma has a 5-year survival rate of 99%.</li>
             </ul>
             </div>
-          <div className={`border border-white rounded-lg mb-8 p-4 ${isAnimated.section3 ? 'animate-rightLeft' : ''} section3`}>
-          <h2 className="text-2xl text-yellow-300 font-bold">Exposure to ultraviolet (UV) radiation</h2>
-            <p className="text-white mb-4">UV radiation from sunlight is the primary environmental risk factor for skin cancer, contributing to DNA damage and cellular mutations.</p>
+            <div className={`border border-white rounded-lg mb-8 p-4 ${isAnimated.section5 ? 'animate-rightLeft' : ''} section5`}>
+          <h2 className="text-2xl text-yellow-300 font-bold">Skin cancer in skin of color patients</h2>
             <ul className="list-disc list-inside text-white mb-4">
+              <li>Skin cancer can affect individuals of all skin tones, including those with darker skin who rarely sunburn.</li>
+              <li>Melanoma in people of color tends to manifest in unique locations on the body, such as the palms of the hands, soles of the feet, under the nails, and in other nail areas.</li>
+              <ul style={{ paddingLeft: '20px' }}>
+              <li>&bull;  These atypical locations often delay detection and diagnosis, leading to more advanced disease stages upon presentation. This poses challenges for treatment and potentially decreases survival rates.</li>
+              <li>&bull;  Although skin of color patients have a lower incidence of melanoma compared to fair-skinned individuals, the overall survival rate is notably lower in this population.</li>
+              <ul style={{ paddingLeft: '20px' }}>
+                    <li >&bull; Among skin of color patients, black men have the lowest 5-year survival rate for melanoma.</li>
+              </ul>
+              <li>&bull;  It is crucial for individuals with skin of color to be vigilant about any changes in their skin and to undergo regular skin examinations, as early detection is key for optimal outcomes.</li>
+               <li>&bull;  Dermatologists should be vigilant in conducting thorough skin examinations, considering these less typical sites for melanoma development in people of color.</li>
+               </ul>
+              <li>UV radiation exposure poses risks to individuals of all skin tones, contributing to skin damage, premature aging, and hyperpigmentation. Therefore, protection against UV radiation is essential for maintaining skin health and reducing the risk of skin cancer, regardless of skin tone.</li>
+              <li>Educating communities about the importance of sun protection and skin cancer awareness can help mitigate disparities in skin cancer outcomes among people of color.</li>
+            </ul>
+          </div>
+          <div className={`border border-white rounded-lg mb-8 p-4 ${isAnimated.section3 ? 'animate-slideLeft' : ''} section3`}>
+          <h2 className="text-2xl text-yellow-300 font-bold">Exposure to ultraviolet (UV) radiation</h2>
+            <ul className="list-disc list-inside text-white mb-4">
+            <li>UV radiation from sunlight is the primary environmental risk factor for skin cancer, contributing to DNA damage and cellular mutations.</li>
+
               <li>Tanning devices, including tanning beds and sunlamps, emit artificial UV radiation that can accelerate skin aging and heighten the risk of skin cancer.</li>
               <li>Practicing sun safety measures such as wearing protective clothing, applying broad-spectrum sunscreen, seeking shade during peak UV hours, and avoiding indoor tanning can mitigate UV-related skin damage and reduce the risk of skin cancer in the long-term.</li>
             </ul>
           </div>
-          <div className={`border border-white rounded-lg mb-8 p-4 ${isAnimated.section4 ? 'animate-slideLeft' : ''} section4`}>
+         
+          <div className={`border border-white rounded-lg mb-8 p-4 ${isAnimated.section4 ? 'animate-rightLeft' : ''} section4`}>
           <h2 className="text-2xl text-yellow-300 font-bold">General risk factors</h2>
             <ul className="list-disc list-inside text-white mb-4">
               <li>Skin that is lightly complected, burns, freckles, or becomes red upon sun exposure easily is often associated with a higher risk of skin cancer.</li>
@@ -94,17 +114,7 @@ export default function CancerFacts() {
               <li>Engagement in indoor tanning.</li>
             </ul>
           </div>
-          <div className={`border border-white rounded-lg mb-8 p-4 ${isAnimated.section5 ? 'animate-rightLeft' : ''} section5`}>
-          <h2 className="text-2xl text-yellow-300 font-bold">Skin cancer in skin of color patients</h2>
-            <ul className="list-disc list-inside text-white mb-4">
-              <li>Skin cancer can affect individuals of all skin tones, including those with darker skin who rarely sunburn.</li>
-              <li>Melanoma in people of color tends to manifest in unique locations on the body, such as the palms of the hands, soles of the feet, under the nails, and in other nail areas.</li>
-              <li>These atypical locations often delay detection and diagnosis, leading to more advanced disease stages upon presentation. This poses challenges for treatment and potentially decreases survival rates.</li>
-              <li>Dermatologists should be vigilant in conducting thorough skin examinations, considering these less typical sites for melanoma development in people of color.</li>
-              <li>UV radiation exposure poses risks to individuals of all skin tones, contributing to skin damage, premature aging, and hyperpigmentation. Therefore, protection against UV radiation is essential for maintaining skin health and reducing the risk of skin cancer, regardless of skin tone.</li>
-              <li>Educating communities about the importance of sun protection and skin cancer awareness can help mitigate disparities in skin cancer outcomes among people of color.</li>
-            </ul>
-          </div>
+          
         </div>
       </div>
     </section>
